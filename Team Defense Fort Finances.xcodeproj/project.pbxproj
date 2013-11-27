@@ -15,6 +15,7 @@
 		413E16E51828DF65005154D3 /* tff_Ref.png in Resources */ = {isa = PBXBuildFile; fileRef = 413E16DD1828DF65005154D3 /* tff_Ref.png */; };
 		413E16E61828DF65005154D3 /* tff_Scrap.png in Resources */ = {isa = PBXBuildFile; fileRef = 413E16DE1828DF65005154D3 /* tff_Scrap.png */; };
 		413E16E71828DF65005154D3 /* tff_USD.png in Resources */ = {isa = PBXBuildFile; fileRef = 413E16DF1828DF65005154D3 /* tff_USD.png */; };
+		4171C5A81845BD4100EC110C /* calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4171C5A71845BD4100EC110C /* calculator.m */; };
 		41C76FD118277055009C4D59 /* sits_large_border.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C76FD018277055009C4D59 /* sits_large_border.png */; };
 		41D42781182437F300F2F1C7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D42780182437F300F2F1C7 /* Cocoa.framework */; };
 		41D4278B182437F300F2F1C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41D42789182437F300F2F1C7 /* InfoPlist.strings */; };
@@ -50,6 +51,8 @@
 		413E16DD1828DF65005154D3 /* tff_Ref.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tff_Ref.png; sourceTree = "<group>"; };
 		413E16DE1828DF65005154D3 /* tff_Scrap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tff_Scrap.png; sourceTree = "<group>"; };
 		413E16DF1828DF65005154D3 /* tff_USD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tff_USD.png; sourceTree = "<group>"; };
+		4171C5A61845BD4100EC110C /* calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calculator.h; sourceTree = "<group>"; };
+		4171C5A71845BD4100EC110C /* calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calculator.m; sourceTree = "<group>"; };
 		41C76FD018277055009C4D59 /* sits_large_border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sits_large_border.png; sourceTree = "<group>"; };
 		41D4277D182437F300F2F1C7 /* Team Defense Fort Finances.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Team Defense Fort Finances.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D42780182437F300F2F1C7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -146,6 +149,8 @@
 				41D42795182437F300F2F1C7 /* MainMenu.xib */,
 				41D42798182437F300F2F1C7 /* Images.xcassets */,
 				41D42787182437F300F2F1C7 /* Supporting Files */,
+				4171C5A61845BD4100EC110C /* calculator.h */,
+				4171C5A71845BD4100EC110C /* calculator.m */,
 			);
 			path = "Team Defense Fort Finances";
 			sourceTree = "<group>";
@@ -310,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41D42794182437F300F2F1C7 /* AppDelegate.m in Sources */,
+				4171C5A81845BD4100EC110C /* calculator.m in Sources */,
 				41D4278D182437F300F2F1C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

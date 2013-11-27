@@ -9,5 +9,20 @@
 #import "calculator.h"
 
 @implementation calculator
+@synthesize priceScrap, priceBud, priceKey, priceMax, priceRec, priceRef, priceTC, priceUSD, calcBudsValText;
+
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+{
+    
+}
+
+// When this calculator is opened, the app should double check that it's prices are accurate with Backpack.tf
+- (void)awakeFromNib {
+    
+}
+
+- (void)calculatorUpdate:(id)sender {
+
+}
 
 @end
