@@ -21,8 +21,6 @@
     
 }
 
--(IBAction)calculatorUpdate:(id)sender;
-
 @property (nonatomic) float *priceScrap;
 @property (nonatomic) float *priceRec;
 @property (nonatomic) float *priceRef;

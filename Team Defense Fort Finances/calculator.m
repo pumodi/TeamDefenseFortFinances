@@ -13,16 +13,18 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    
 }
 
 // When this calculator is opened, the app should double check that it's prices are accurate with Backpack.tf
 - (void)awakeFromNib {
-    
 }
 
-- (void)calculatorUpdate:(id)sender {
-
+-(void)fieldValues:(id)sender {
+    float priceScrap = [calcScrapInput floatValue];
+    float priceRec = (priceScrap / (double)3.0);
+    
+    calcScrapInput.floatValue = priceScrap;
+    calcRecInput.floatValue = priceRec;
 }
 
 @end

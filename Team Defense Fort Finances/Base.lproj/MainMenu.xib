@@ -726,6 +726,9 @@
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
+                        <connections>
+                            <action selector="fieldValues:" target="HPn-4m-H2S" id="K6q-hV-tMF"/>
+                        </connections>
                     </textField>
                     <textField verticalHuggingPriority="750" id="Dqa-Dz-tc4">
                         <rect key="frame" x="118" y="320" width="49" height="22"/>
